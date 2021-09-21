@@ -11,9 +11,15 @@ int main()
 	gets_s(eingabe, 1);
 	printf(eingabe);
 	*/
-	char line[21]; 
-	gets_s(line, 20);
-	printf("The line entered was: %s\n", line);
+
+
+	int breite; 
+	int laenge; 
+	int dicke; 
+	printf("Blechrechner");
+	/*scanf_s
+	gets_s(breite);
+	printf("The line entered was: %d\n", breite);*/
 }
 
 // Programm ausführen: STRG+F5 oder "Debuggen" > Menü "Ohne Debuggen starten"
